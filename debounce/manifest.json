@@ -1,0 +1,12 @@
+{
+  "name": "debounce",
+  "version": "0.1.0",
+  "description": "Async debounce utilities for MicroPython digital input handling.",
+  "license": "MIT",
+  "author": "Joel Cooper",
+  "files": [
+    "debounce/__init__.py",
+    "debounce/async_pin_monitor.py",
+    "debounce/edge_timed_irq.py"
+  ]
+}
