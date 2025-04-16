@@ -1,9 +1,12 @@
 {
-    "urls": [
-      ["lib/debounce/__init__.py", "debounce/__init__.py"],
-      ["lib/debounce/async_pin_monitor.py", "debounce/async_pin_monitor.py"],
-      ["lib/debounce/edge_timed_irq.py", "debounce/edge_timed_irq.py"]
-    ],
-    "version": "0.1"
-  }
-  
+  "version": "0.1",
+  "urls": [
+    ["debounce/__init__.py", "debounce/__init__.py"],
+    ["debounce/async_pin_monitor.py", "debounce/async_pin_monitor.py"],
+    ["debounce/edge_timed_irq.py", "debounce/edge_timed_irq.py"]
+  ],
+  "deps": [],
+  "description": "Async debounce utilities for MicroPython digital input handling.",
+  "license": "MIT",
+  "author": "Joel Cooper"
+}
